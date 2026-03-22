@@ -60,9 +60,6 @@ def gan_style(img_path, output_path):
 
 
 # -----------------------------
-@app.route('/')
-def home():
-    return redirect(url_for('index'))
 # ROUTE
 # -----------------------------
 
