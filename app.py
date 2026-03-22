@@ -105,6 +105,7 @@ def index():
         'index.html',
         output_image=output_image,
         input_image=input_image
+        key=str(uuid.uuid4())
     )
 
 
